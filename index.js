@@ -12,7 +12,7 @@ for (let i = 10; i <= 100; i = i + 10) {
 
 //3. Дане ціле число.Вивести всі цілі числа від 1 до 100, квадрат яких не перевищує числа N.
 const num = prompt('Enter your number');
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 100; i++) {
     if (i * i <= num) {
         console.log(i);
     };
